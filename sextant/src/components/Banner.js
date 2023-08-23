@@ -2,9 +2,9 @@ import React from "react";
 
 function Banner(props) {
   return (
-    <>
-      <h1>{props.title}</h1>
-    </>
+    <div className="banner">
+      <h1 className="banner-text">{props.text}</h1>
+    </div>
   );
 }
 

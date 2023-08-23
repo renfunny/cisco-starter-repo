@@ -2,10 +2,10 @@ import React from "react";
 
 function Exhibit(props) {
   return (
-    <>
-      <header>{props.header}</header>
-      {props.children}
-    </>
+    <div className="exhibit">
+      <h2 className="exhibit-header">{props.header}</h2>
+      <div className="exhibit-body">{props.children}</div>
+    </div>
   );
 }
 
