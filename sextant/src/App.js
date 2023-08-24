@@ -6,7 +6,7 @@ import Latency from "./components/Latency";
 function App() {
   return (
     <div className="App">
-      <Banner text="Sextant by CISCO" />
+      <Banner text="SEXTANT" />
       <div className="Content">
         <Exhibit header="IPv4 Address">
           <Address url="https://api.ipify.org?format=json" />
